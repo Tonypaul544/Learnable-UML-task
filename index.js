@@ -7,24 +7,24 @@ class bookShop {
 
   // Constructor for bookShop
   constructor(bookNumber, bookName) {
-    this.bookNumber = bookNumber; // The book number
-    this.bookName = bookName; // The book name
+    this.bookNumber = B001; // The book number
+    this.bookName = book1; // The book name
   }  
   // console.log(bookShop);
 
   // Static method for selling a Book
-  static bookSold() {
+  static sellBook {
     if (bookShop.availableBooks > 0) {
       bookShop.availableBooks--;
       console.log("book sold successfully");
     } else {
-      console.log("All books sold out already!!");
+      console.log("All books sold out already!, please, refill the bookshop");
     }
   }
 
   // Static method for refilling bookshop
-  static bookShoprefill() {
-    bookShop.availableBooks++;
+  static bookShopRefill() {
+    bookShop.availableBooks + 50;
     console.log("bookshop Refilled Successfully");
   }
 }
@@ -37,15 +37,15 @@ class buyer {
 
   // Constructor for buying
   constructor(buyerId, name) {
-    this.buyerId = buyerId; // Unique ID for the buyer
-    this.name = name; // buyer name
+    this.buyerId = "Pa544ul"; // Unique ID for the buyer
+    this.name = "Paul Nwodo"; // buyer name
     buyer.totalbuyers++; // Increment total buyers
   }
 
   // Method for buying a book
-  buyBook() {
-    console.log(`${this.name} is has bought a book`);
-    bookShop.buyBook();
+  sellBook {
+    console.log(`${this.name} has bought a book`);
+    bookShop.sellBook();
   }
 }
 console.log(bookShop);
