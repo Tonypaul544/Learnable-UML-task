@@ -7,8 +7,8 @@ class bookShop {
 
   // Constructor for bookShop
   constructor(bookNumber, bookName) {
-    this.bookNumber = B001; // The book number
-    this.bookName = book1; // The book name
+    this.bookNumber = "B001"; // The book number
+    this.bookName = "book1"; // The book name
   }  
   // console.log(bookShop);
 
@@ -34,7 +34,6 @@ class bookShop {
 class buyer {
   // Attributes
   static totalbuyers = 5;
-
   // Constructor for buying
   constructor(buyerId, name) {
     this.buyerId = "Pa544ul"; // Unique ID for the buyer
@@ -43,7 +42,7 @@ class buyer {
   }
 
   // Method for buying a book
-  sellBook {
+  sellBookAlert {
     console.log(`${this.name} has bought a book`);
     bookShop.sellBook();
   }
